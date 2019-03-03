@@ -4,3 +4,6 @@
 - This is database management system by using Codeigniter.
 
 ## Contributor
+
+- Luis Roy
+- David Blackwell
