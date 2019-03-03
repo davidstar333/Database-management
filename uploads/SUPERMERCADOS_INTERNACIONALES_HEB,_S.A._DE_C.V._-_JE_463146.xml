@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd " Version="3.3" Serie="JE" Folio="463146" FormaPago="01" Moneda="MXN" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="25280" Fecha="2019-02-18T12:58:14" SubTotal="1468.02" Total="1660.00" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" NoCertificado="00001000000404714886" Certificado="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" Sello="KqX9dKmXrQfdy8JHnfTszyNJDpceHIwa689UXxoI0Cfe+up2HQVibhpD4n1b5ohEXVihj6wnJUe/Lzmsj4fwMj6z6+u2vJ/zIUUTGH4Y+YcagHdZFHu/xDxYpH7wj8yi9pTYW+M+ypn/LuK/vreFJokyZo9cEctFsw3HR8Y18yk9SUTn/YAyuQuu3dUAzlPWzm0BNGBbIy6bN7D2YN4gPHhzW8j7EKCyk0PuZlG/MIOLJxXgBayxkSs9uqwgZh8v5Lxn58KoT6KK1ZitaobsvIzuQrmuoNbx8rptiTeU2VeNwructQOkdS/3eYQKwXhTtQ2L4OC5dZy28fGt5Wg8Kg==">
+  <cfdi:Emisor Rfc="SIH9511279T7" Nombre="SUPERMERCADOS INTERNACIONALES HEB, S.A. DE C.V." RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="GEC890714J68" Nombre="GOBIERNO DEL ESTADO DE COAHUILA DE ZARAGOZA" UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="50192800" ClaveUnidad="H87" Unidad="PZ" Descripcion="ENCANTO FRITURAS 500 GR" Cantidad="3.00" ValorUnitario="30.56" Importe="91.67">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" Base="99.00" TasaOCuota="0.000000" Importe="0.00" />
+          <cfdi:Traslado Impuesto="003" TipoFactor="Tasa" Base="91.67" TasaOCuota="0.080000" Importe="7.33" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="50161800" ClaveUnidad="H87" Unidad="PZ" Descripcion="SAL 170GR" Cantidad="4.00" ValorUnitario="27.78" Importe="111.11">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" Base="120.00" TasaOCuota="0.000000" Importe="0.00" />
+          <cfdi:Traslado Impuesto="003" TipoFactor="Tasa" Base="111.11" TasaOCuota="0.080000" Importe="8.89" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="50161800" ClaveUnidad="H87" Unidad="PZ" Descripcion="MAFER CACAHUATES JAPONES" Cantidad="6.00" ValorUnitario="27.78" Importe="166.67">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" Base="180.00" TasaOCuota="0.000000" Importe="0.00" />
+          <cfdi:Traslado Impuesto="003" TipoFactor="Tasa" Base="166.67" TasaOCuota="0.080000" Importe="13.33" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="50161800" ClaveUnidad="H87" Unidad="PZ" Descripcion="MAFER CACAHUATES C/CHILE" Cantidad="6.00" ValorUnitario="27.78" Importe="166.67">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" Base="180.00" TasaOCuota="0.000000" Importe="0.00" />
+          <cfdi:Traslado Impuesto="003" TipoFactor="Tasa" Base="166.67" TasaOCuota="0.080000" Importe="13.33" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="42312400" ClaveUnidad="H87" Unidad="PZ" Descripcion="HEB TENEDORES PREM12PZ" Cantidad="5.00" ValorUnitario="20.60" Importe="103.02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" Base="103.02" TasaOCuota="0.160000" Importe="16.48" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="49101609" ClaveUnidad="H87" Unidad="PZ" Descripcion="HEB CUCHARAS PREM 12PZ" Cantidad="5.00" ValorUnitario="18.88" Importe="94.40">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" Base="94.40" TasaOCuota="0.160000" Importe="15.10" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="50161800" ClaveUnidad="H87" Unidad="PZ" Descripcion="COCA COLA LIGHT 6/355 ML" Cantidad="6.00" ValorUnitario="61.21" Importe="367.24">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" Base="367.24" TasaOCuota="0.160000" Importe="58.76" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="50202306" ClaveUnidad="H87" Unidad="PZ" Descripcion="COCA COLA REG 6/355 ML" Cantidad="6.00" ValorUnitario="61.21" Importe="367.24">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" Base="367.24" TasaOCuota="0.160000" Importe="58.76" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="191.98">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="149.10" />
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.000000" Importe="0.00" />
+      <cfdi:Traslado Impuesto="003" TipoFactor="Tasa" TasaOCuota="0.080000" Importe="42.88" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="30281C9D-27F7-334C-9EA4-DEDECBD4197D" FechaTimbrado="2019-02-18T12:58:16" RfcProvCertif="SCD110105654" SelloCFD="KqX9dKmXrQfdy8JHnfTszyNJDpceHIwa689UXxoI0Cfe+up2HQVibhpD4n1b5ohEXVihj6wnJUe/Lzmsj4fwMj6z6+u2vJ/zIUUTGH4Y+YcagHdZFHu/xDxYpH7wj8yi9pTYW+M+ypn/LuK/vreFJokyZo9cEctFsw3HR8Y18yk9SUTn/YAyuQuu3dUAzlPWzm0BNGBbIy6bN7D2YN4gPHhzW8j7EKCyk0PuZlG/MIOLJxXgBayxkSs9uqwgZh8v5Lxn58KoT6KK1ZitaobsvIzuQrmuoNbx8rptiTeU2VeNwructQOkdS/3eYQKwXhTtQ2L4OC5dZy28fGt5Wg8Kg==" NoCertificadoSAT="00001000000401041203" SelloSAT="AWYuhy9g9vsXnZ5e5eHZ3anHiPUccF+yx1U80jOeVPWxZcX+kkZ+jjTQgvkPxh5cv2HcqY9yR+OikC2Cqad1NcCvJLfXSSDF+OMoE8NDNM5PTTS8U40hTuSEeQKJ+MbuHN6iLb8jPmLr+Dn/MdYDaCneM3wpNfo0PimlFWyHs5Yy3kxJnqEEHb06myBi9m9mx0qps9Z5njBshoZlm3SUYOBseueezl5HPKjL4k6YkedpWAmHx5YP6PiMyez+SNAdTiNfApwoJ44m1J5s5abCPCDVbnIdhYqEwLYhVXaxE2y9tsWTNaEgSP/r80uQpuLiS99mb/b2x8v4ksEgyo1cpQ==" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

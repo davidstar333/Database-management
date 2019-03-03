@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="3.3" Serie="FM" Folio="71816" Fecha="2018-11-09T09:26:05" Sello="K9tpheIqetbwQ7VeaXn26/+T5x0dYK2XSiuzkrZ8L2LXccWdiU507Ed9p05h2A7nA+kIevcK7UE76zLR5MedKxb84+BCDv2Jzf2dsZeHpbaULGZWmHVeJtyx1P95h31t1ahEfD6kSihKhLKBhAUjJ26ESzocQFntcJtQcwU6YwIAqzclQYyhpa/rYu7AKv10PudGfZ3BtGLGwh6/kVbADV1nsBCnc46+l0fsksC5KmJlVYkB1iM4pWXStBtnLfkG9hdmotu4Yi/QsIJty4iO6CPgaIyamEGzjz0Bf56+YLkSkBn9RM8Jmqf+3xmvRaYbnyJJ6eGyROq9P0OoQezjQA==" FormaPago="99" NoCertificado="00001000000404546840" Certificado="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" SubTotal="1629.54" Moneda="MXN" Total="1890.26" TipoDeComprobante="I" MetodoPago="PPD" LugarExpedicion="25000" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd">
+    <cfdi:Emisor Rfc="FSI350701GV1" Nombre="FERRETERIA SIEBER, SA DE CV" RegimenFiscal="601"/>
+    <cfdi:Receptor Rfc="GEC890714J68" Nombre="GOBIERNO DEL ESTADO DE COAHUILA DE ZARAGOZA" UsoCFDI="G03"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto ClaveProdServ="40141608" NoIdentificacion="49001" Cantidad="1.000000" ClaveUnidad="H87" Unidad="PIEZAS" Descripcion="V?LVULA DE ESFERA, DE LAT N, ROSCABLE 3/" ValorUnitario="95.40" Importe="95.40">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="95.40" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="15.26"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="23151910" NoIdentificacion="49347" Cantidad="1.000000" ClaveUnidad="H87" Unidad="PIEZAS" Descripcion="FLOTADOR EL?CTRICO PARA TINACO, 3M FL-00" ValorUnitario="288.50" Importe="288.50">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="288.50" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="46.16"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="01010101" NoIdentificacion="ARTICULO1" Cantidad="5.000000" ClaveUnidad="EA" Unidad="PIEZA" Descripcion="ASPERSOR RAIN BIRD 3500" ValorUnitario="197.60" Importe="988.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="988.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="158.08"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="40183100" NoIdentificacion="13392182" Cantidad="8.000000" ClaveUnidad="EA" Unidad="PIEZA" Descripcion="COPLE TUBOPLUS 32 MM" ValorUnitario="14.97" Importe="119.76">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="119.76" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="19.16"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="40172508" NoIdentificacion="13390046" Cantidad="12.000000" ClaveUnidad="H87" Unidad="PIEZAS" Descripcion="COPLE 1&quot; C-40" ValorUnitario="7.64" Importe="91.68">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="91.68" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="14.67"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="21101800" NoIdentificacion="12288" Cantidad="1.000000" ClaveUnidad="H87" Unidad="PIEZAS" Descripcion="CONEXI N DE LATON HEMBRA DE 5/8' PARA MA" ValorUnitario="46.20" Importe="46.20">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="46.20" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="7.39"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="260.72">
+        <cfdi:Traslados>
+            <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="260.72"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" FechaTimbrado="2018-11-09T09:50:03" NoCertificadoSAT="00001000000408254801" RfcProvCertif="LSO1306189R5" SelloCFD="K9tpheIqetbwQ7VeaXn26/+T5x0dYK2XSiuzkrZ8L2LXccWdiU507Ed9p05h2A7nA+kIevcK7UE76zLR5MedKxb84+BCDv2Jzf2dsZeHpbaULGZWmHVeJtyx1P95h31t1ahEfD6kSihKhLKBhAUjJ26ESzocQFntcJtQcwU6YwIAqzclQYyhpa/rYu7AKv10PudGfZ3BtGLGwh6/kVbADV1nsBCnc46+l0fsksC5KmJlVYkB1iM4pWXStBtnLfkG9hdmotu4Yi/QsIJty4iO6CPgaIyamEGzjz0Bf56+YLkSkBn9RM8Jmqf+3xmvRaYbnyJJ6eGyROq9P0OoQezjQA==" SelloSAT="wIfwotNuC/DG1AbdOOe/ltRbZRj5iRUDdOu1GPp8s2RcekSSApIa6ar7NzVPKWiBuGDwfvSbSVJFiLuWFe7wrJnVwLlQnv0lHlTmatlRW4J8O4kEZtZhMIIMyu/oOnVwp6ubIlWXmBtThnyvfGnVCkPzR2LBODIkqBLnKB9L+ZNbQ0RAl0oRF3Cf9ETtwZoBxqhGZfUsIlY3sAU7TeIYI+5AML6I41GGuNtf1JXTnAOl4MD2qqGWSeLayja31mG+MHnbzNqVReWX9+xRGYsrU2hkNQRcA6h3LKejnqiFRJRXFrpirPEho0uIH5PAQtkBIFwH2OnH7DawwfGTKERDGQ==" UUID="bb144fbd-db58-46f0-bf38-082d63a5f0b2" Version="1.1" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/timbrefiscaldigital/TimbreFiscalDigitalv11.xsd"/>
+    </cfdi:Complemento>
+</cfdi:Comprobante>

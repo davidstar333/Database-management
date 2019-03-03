@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><cfdi:Comprobante Certificado="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" CondicionesDePago="0 días" Fecha="2019-02-18T11:04:08" Folio="4002" FormaPago="01" LugarExpedicion="25205" MetodoPago="PUE" Moneda="MXN" NoCertificado="00001000000401071194" Sello="Lbd7RfiV5owbUk39U30xRTJAbx8yxyZ32Vv8dkzlkH0Lc6inS+ImsywzCdBVboEOGYzZ8oTlgqj9sjCPfDfiGXVnYOPk1VmCpBUzgoLDd3ltpLLArUTkH8azZLXOX3HYEcya/81coIEhAxQ3Tcevfyq9u76HZHET17U8sqfD+pTnyg9TkPmK1UyCq0yF48jWXDPqzAR8p5EpUi+LVrEVcjGmxnIEB7ueUi1o8sgkPRDTtqH851nPVjRNSPHanFB1k0LiBFPJwwq6OorSXiWPRONRoq01tw/uO3piLejBdgVZG0RXDU1qLp3taJEs5iFo/DKz/bIDY3zh6lxJOgG6kg==" Serie="C" SubTotal="571.38" TipoCambio="1" TipoDeComprobante="I" Total="617.09" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <cfdi:Emisor Nombre="Villa de Patos S.A. de C.V." RegimenFiscal="601" Rfc="VPA151215SA1"/>
+    <cfdi:Receptor Nombre="Gobierno Del Estado De Coahuila De Zaragoza" Rfc="GEC890714J68" UsoCFDI="G03"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="6.00000" ClaveProdServ="50192110" ClaveUnidad="H87" Descripcion="Trailmix Natural 60 gr. Fecha de Caducidad: 06/06/2019 Lote: 190206" Importe="111.12" NoIdentificacion="3100378" Unidad="Pza" ValorUnitario="18.52000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="111.12" Importe="8.89" Impuesto="003" TasaOCuota="0.080000" TipoFactor="Tasa"/>
+                    <cfdi:Traslado Base="111.12" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="6.00000" ClaveProdServ="50192401" ClaveUnidad="H87" Descripcion="Cuadritos de Membrillo con Chile 50 gr. Fecha de Caducidad: 19/06/2019 Lote: 181221" Importe="100.02" NoIdentificacion="3100191" Unidad="Pza" ValorUnitario="16.67000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="100.02" Importe="8.00" Impuesto="003" TasaOCuota="0.080000" TipoFactor="Tasa"/>
+                    <cfdi:Traslado Base="100.02" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="6.00000" ClaveProdServ="50192110" ClaveUnidad="H87" Descripcion="Trailmix Enchilado 60 gr. Fecha de Caducidad: 00/00/0 Lote: 1" Importe="111.12" NoIdentificacion="3100376" Unidad="Pza" ValorUnitario="18.52000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="111.12" Importe="8.89" Impuesto="003" TasaOCuota="0.080000" TipoFactor="Tasa"/>
+                    <cfdi:Traslado Base="111.12" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="7.00000" ClaveProdServ="50192110" ClaveUnidad="H87" Descripcion="Nuez Garapiñada 50 gr. Fecha de Caducidad: 17/07/2019 Lote: 190118" Importe="149.10" NoIdentificacion="3100340" Unidad="Pza" ValorUnitario="21.30000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="149.10" Importe="11.93" Impuesto="003" TasaOCuota="0.080000" TipoFactor="Tasa"/>
+                    <cfdi:Traslado Base="149.10" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="6.00000" ClaveProdServ="50192401" ClaveUnidad="H87" Descripcion="Cuadritos de Membrillo con Azúcar 50 gr. Fecha de Caducidad: 24/06/2019 Lote: 181226" Importe="100.02" NoIdentificacion="3100190" Unidad="Pza" ValorUnitario="16.67000">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="100.02" Importe="8.00" Impuesto="003" TasaOCuota="0.080000" TipoFactor="Tasa"/>
+                    <cfdi:Traslado Base="100.02" Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="45.71">
+        <cfdi:Traslados>
+            <cfdi:Traslado Importe="45.71" Impuesto="003" TasaOCuota="0.080000" TipoFactor="Tasa"/>
+            <cfdi:Traslado Importe="0.00" Impuesto="002" TasaOCuota="0.000000" TipoFactor="Tasa"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital Version="1.1" SelloCFD="Lbd7RfiV5owbUk39U30xRTJAbx8yxyZ32Vv8dkzlkH0Lc6inS+ImsywzCdBVboEOGYzZ8oTlgqj9sjCPfDfiGXVnYOPk1VmCpBUzgoLDd3ltpLLArUTkH8azZLXOX3HYEcya/81coIEhAxQ3Tcevfyq9u76HZHET17U8sqfD+pTnyg9TkPmK1UyCq0yF48jWXDPqzAR8p5EpUi+LVrEVcjGmxnIEB7ueUi1o8sgkPRDTtqH851nPVjRNSPHanFB1k0LiBFPJwwq6OorSXiWPRONRoq01tw/uO3piLejBdgVZG0RXDU1qLp3taJEs5iFo/DKz/bIDY3zh6lxJOgG6kg==" UUID="FBAFB4F2-1010-47CA-BD6B-EFEDAFE09750" FechaTimbrado="2019-02-18T11:09:04" RfcProvCertif="STO020301G28" NoCertificadoSAT="00001000000404627119" SelloSAT="57wX9/oscKC9welxWJNNIWbm3Kx8Q73UqUTRSkpwt38KhIIbDnwcuyn2vEhSFkDIwuM9oAtvo1D9wNuNlSI/wZtgPRl1kiiOBq/uqbDaPHxDQfDMCSRO6sE8WOHMOSIDEf2QSGKBgQnc7LJGH/kgOiacynU0YNJ4Rqx8qsneNHLsc+xHSqweKIXqCqsq4bNmacSacw2g79UNJ7GlFZHfyXIEo6nhsORXFgiiezlerq5ew9IM8CW31LneI4JByWUXzV5owdfLcescQQNwxrN4IGFmMAMz9pO3b09n9UogHo+AbubT7BkjFjz0xCE3u71LiwdBB++DLB1h5tVq8sBXZQ==" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"/>
+    </cfdi:Complemento>
+</cfdi:Comprobante>

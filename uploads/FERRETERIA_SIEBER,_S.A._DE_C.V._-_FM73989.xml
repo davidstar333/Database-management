@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="3.3" Serie="FM" Folio="73989" Fecha="2019-02-15T12:45:04" Sello="TRs6vbrJqtTRaAmccT766lgvNiDvroDy5EX5t7E0FOgeB5kIAbFHKLf8fQ7aiud7RgCQGVSM2JnuWlD0px4XgoEb/uY0Eval7rKAkBHn57GQgzR+AjLrgyNZ6+mRLjm0bM7SMmhvH1Th+K5zC1gdSAqZXjHewlTjXaKfctNef+oZ+bI1pcf/Oar2ro6I44P2sxLDClhd95ay6B2Bbxk23sa3fm0J6B5p/Q7WJ3zPyvxcFxoxj5xCiX3CiMdf7C6MYWLADZOyhtS5hGWPr8olM57MwNwoYNGv2Sc83CMNL5/gUIPzXBKVHPLgbmJEQ8DvOZ4i3XXJkEjc7fDybznp7Q==" FormaPago="01" NoCertificado="00001000000404546840" Certificado="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" SubTotal="406.50" Moneda="MXN" Total="471.55" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="25000" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd">
+    <cfdi:Emisor Rfc="FSI350701GV1" Nombre="FERRETERIA SIEBER, SA DE CV" RegimenFiscal="601"/>
+    <cfdi:Receptor Rfc="GEC890714J68" Nombre="GOBIERNO DEL ESTADO DE COAHUILA DE ZARAGOZA" UsoCFDI="G03"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto ClaveProdServ="39122200" NoIdentificacion="48084" Cantidad="2.000000" ClaveUnidad="H87" Unidad="PIEZAS" Descripcion="INTERRUPTOR SENCILLO, L NEA ITALIANA, COLOR MARFIL" ValorUnitario="17.03" Importe="34.06">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="34.06" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="5.45"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="39122200" NoIdentificacion="48112" Cantidad="1.000000" ClaveUnidad="H87" Unidad="PIEZAS" Descripcion="CONTACTO SENCILLO, 2 POLOS + TIERRA, L NEA ITALIAN A, MARFIL" ValorUnitario="20.67" Importe="20.67">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="20.67" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="3.31"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="39122200" NoIdentificacion="48089" Cantidad="1.000000" ClaveUnidad="H87" Unidad="PIEZAS" Descripcion="PLACA 2 MËDULOS DE ABS, L NEA ITALIANA, MARFIL" ValorUnitario="18.24" Importe="18.24">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="18.24" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="2.92"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="39122200" NoIdentificacion="48088" Cantidad="1.000000" ClaveUnidad="H87" Unidad="PIEZAS" Descripcion="PLACA 1 MËDULO DE ABS, L NEA ITALIANA, MARFIL" ValorUnitario="18.24" Importe="18.24">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="18.24" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="2.92"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto ClaveProdServ="30181500" NoIdentificacion="49286" Cantidad="1.000000" ClaveUnidad="H87" Unidad="PIEZAS" Descripcion="MEZCLADORA FREGADERO, MANERALES ACR LICOS, CORTO, BASIC" ValorUnitario="315.29" Importe="315.29">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="315.29" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="50.45"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="65.05">
+        <cfdi:Traslados>
+            <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="65.05"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" FechaTimbrado="2019-02-15T13:10:58" NoCertificadoSAT="00001000000405332712" RfcProvCertif="FIN1203015JA" SelloCFD="TRs6vbrJqtTRaAmccT766lgvNiDvroDy5EX5t7E0FOgeB5kIAbFHKLf8fQ7aiud7RgCQGVSM2JnuWlD0px4XgoEb/uY0Eval7rKAkBHn57GQgzR+AjLrgyNZ6+mRLjm0bM7SMmhvH1Th+K5zC1gdSAqZXjHewlTjXaKfctNef+oZ+bI1pcf/Oar2ro6I44P2sxLDClhd95ay6B2Bbxk23sa3fm0J6B5p/Q7WJ3zPyvxcFxoxj5xCiX3CiMdf7C6MYWLADZOyhtS5hGWPr8olM57MwNwoYNGv2Sc83CMNL5/gUIPzXBKVHPLgbmJEQ8DvOZ4i3XXJkEjc7fDybznp7Q==" SelloSAT="TOX3P3ypMLWquY80m7dpPVHL6ji4Oi6PYXo6CAJdnPYBPoIehc1nuQ/M0qIWCsy20LGnAqOIazEWFbluem3BxqQb2kBLHigUGPNn+xF+sWaRZ4ZjYrJpGAV0zzfQ56NqrwHsjoHXkF2zMbLt5gHfOjZtaYRsc1mkJHMy4MB6SM4+nM4T1GkyEkkSWjyEG21be7HO/Wq3OiCgWjIvySXhSvAxOgNVm0hFT0SVnqBaPHIvXg41I5g5V8vw+6otdsSqGFA2r8zrvtTuO3wuVlpBKG5i7MVH7fYgwcRRseCIek4GL3LtJ41ihzvq2va/+O37JurpL2gJmtgNVj3p/Xueqg==" UUID="A5918AFE-8F61-4345-8ECD-43BBAA4A84FB" Version="1.1" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/timbrefiscaldigital/TimbreFiscalDigitalv11.xsd"/>
+    </cfdi:Complemento>
+</cfdi:Comprobante>

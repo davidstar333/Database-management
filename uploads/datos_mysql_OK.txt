@@ -1,0 +1,17 @@
+root
+Joliet1980
+email: pirulina23@gmail.com
+
+encryption_key
+g48E3111748pyr
+
+
+http://192.168.1.2/phpmyadmin/
+
+
+http://192.168.1.2/
+
+nombre de base de datos config de databased: sistema
+
+nombre de base de datos programa (registros): app_db
+

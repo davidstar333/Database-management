@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" Version="3.3" Serie="CE" Folio="3856" Fecha="2018-10-08T18:10:42" Sello="MvNKQOQ6UW2p3FaGXTJ19RKE8hOViMWnHtwLGFJRsGAdO+CoxnWQQ5d1enjOtQ7SxtZiyiuArTP/8QnxtPDsNwSg1xJhPJe+c6SQZY5sZXNoM8ETe1dDV38WY18oj5sih10wS4hGnZalpoEHH8mj/dhJBM/nnXMNShIDZwNQkKhC32pgAgCpiJzbqp4cGARJsDBoMkhEcgS/DZeyPxvvXWtFMm0nzMO28ua7ymMywztG0K/aFy+iSiTwsrXhTbl7tgX29c1w1GG/2gbaVBQ1bQvrgrjiknwN/FPum1W/sf3eKBezfSMvbva6WkNZUaFAR0+ncGfPo/2/xPE9VW51+A==" FormaPago="99" NoCertificado="00001000000408660499" Certificado="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" CondicionesDePago="Credito a 280 días" SubTotal="1724.14" Moneda="MXN" Total="2000.00" TipoDeComprobante="I" MetodoPago="PPD" LugarExpedicion="25530" xmlns:cfdi="http://www.sat.gob.mx/cfd/3">
+  <cfdi:Emisor Rfc="FPF170810F72" Nombre="FLORES Y PLANTAS LA FINCA SA DE CV" RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="GEC890714J68" Nombre="GOBIERNO DEL ESTADO DE COAHUILA DE ZARAGOZA" UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="10342000" NoIdentificacion="615004" Cantidad="1" ClaveUnidad="EA" Unidad="UNIDAD" Descripcion="CORONA FLORAL GRANDE CLAVE COR005" ValorUnitario="1724.137981" Importe="1724.137981">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1724.137981" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="275.86" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="275.86">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="275.86" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" FechaTimbrado="2018-10-08T18:10:40" SelloCFD="MvNKQOQ6UW2p3FaGXTJ19RKE8hOViMWnHtwLGFJRsGAdO+CoxnWQQ5d1enjOtQ7SxtZiyiuArTP/8QnxtPDsNwSg1xJhPJe+c6SQZY5sZXNoM8ETe1dDV38WY18oj5sih10wS4hGnZalpoEHH8mj/dhJBM/nnXMNShIDZwNQkKhC32pgAgCpiJzbqp4cGARJsDBoMkhEcgS/DZeyPxvvXWtFMm0nzMO28ua7ymMywztG0K/aFy+iSiTwsrXhTbl7tgX29c1w1GG/2gbaVBQ1bQvrgrjiknwN/FPum1W/sf3eKBezfSMvbva6WkNZUaFAR0+ncGfPo/2/xPE9VW51+A==" UUID="0771F320-7FAD-13F2-0C80-D7D17605499F" NoCertificadoSAT="00001000000402636111" RfcProvCertif="SAD110722MQA" SelloSAT="XOdzAGnoQi8rZMeyLnSMcurZQsi6oc5yaWvSGr9RJAptJj8lmt4QuW70f13uXPo+haXmEidPfHhdXuxerpxvT2BrkNQBEGbXQWVWOkqVw+9TcIbtMAomA/GEh/Dy7vBra8FnM3ZpIugd6HOUphgMhmTM/u971wK31T8higHGDWQoQilebh416t7yJ/Mci/+EPvmpjaxquoSkvuvgkBT7u+cPWKrliaS+vcoxNf9dOUXVkPQwfrPW9U5tHVBk2Wd9TOpeh83URw19f1y0FbSGNQ8+wf1K2VWjTuUrWHIU4o1VjBN+Zz7ajra66isDNNlZKzBley8w4hEamEVaDEtjfA==" />
+  </cfdi:Complemento>
+  <cfdi:Addenda>
+    <DatosAdicionales>
+      <DatosEmisor calle="BOULEVARD VENUSTIANO CARRANZA" NumeroExterior="4471" Numerointerior="" Colonia="COL. VIRREREYES RESIDENCIAL" Municipio="SALTILLO" Estado="COAHUILA" Cp="25530" expedicion="SALTILLO, COAHUILA MEXICO" />
+      <pagare>1</pagare>
+      <DatosCliente calle="CASTELAR" NumeroExterior="SN" Numerointerior="" Colonia="CENTRO" Ciudad="SALTILLO" Estado="Coahuila de Zaragoza" Cp="25000" Telefono="" FechaPagare="15-07-2019" />
+    </DatosAdicionales>
+  </cfdi:Addenda>
+</cfdi:Comprobante>

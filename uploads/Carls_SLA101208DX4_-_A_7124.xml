@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" Version="3.3" Serie="A" Folio="7124" Fecha="2019-02-16T17:44:08" Sello="QHYpQ5AxZlqvJncPBMeC85uA7Rw6LB7OcTvSvxWV4yfjQzY5kVHcqR1Jomz2uwnuq2p/yUmjBXIWZgfcKj3kSgQpfOGMDshr+UZiLAgqoZ4Wea3/hCPQt4MyiNT7mrG28OEv3DkrR65iy7W9NhfK+n3qLSCn+Vyw/XjuRibOi2iZz8E44cozipfEU/P/Y4/JssekTwJHUG4gepByX+Hua7S//ZftvT9h+UPpbWGrRsyr0kzQN/Ym9+oUxW/tNieksnk6HqQ9bwrJxZlm61sKuVNUbNFq2br1bw71OIRBimPaUm12L/gqZMi8zH0zZOQUJ2Ny6r+1covBd2EHKz0y3w==" FormaPago="04" NoCertificado="00001000000404585098" Certificado="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" SubTotal="597.41" Moneda="MXN" TipoCambio="1" Total="693.00" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="27018">
+  <cfdi:Emisor Rfc="SLA101208DX4" RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="GEC890714J68" Nombre="GOBIERNO DEL ESTADO DE COAHUILA DE ZARAGOZA" UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="90101501" Cantidad="1" ClaveUnidad="C62" Unidad="Pieza" Descripcion="CHICKEN TENDERS 5" ValorUnitario="81.034483" Importe="81.034483">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="81.034483" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="12.965517" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="90101501" Cantidad="1" ClaveUnidad="C62" Unidad="Pieza" Descripcion="PAPAS CHICAS" ValorUnitario="21.551724" Importe="21.551724">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="21.551724" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="3.448276" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="90101501" Cantidad="1" ClaveUnidad="C62" Unidad="Pieza" Descripcion="REFRESCO CHICO" ValorUnitario="29.310345" Importe="29.310345">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="29.310345" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="4.689655" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="90101501" Cantidad="4" ClaveUnidad="C62" Unidad="Pieza" Descripcion="H. Philly" ValorUnitario="65.517241" Importe="262.068966">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="262.068966" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="41.931034" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="90101501" Cantidad="4" ClaveUnidad="C62" Unidad="Pieza" Descripcion="PAPAS CHICAS" ValorUnitario="21.551724" Importe="86.206897">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="86.206897" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="13.793103" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="90101501" Cantidad="4" ClaveUnidad="C62" Unidad="Pieza" Descripcion="REFRESCO CHICO" ValorUnitario="29.310345" Importe="117.241379">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="117.241379" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="18.758621" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="95.59">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="95.59" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="ef74d253-e88b-4f6b-90e8-3227c015a665" FechaTimbrado="2019-02-16T17:44:08" RfcProvCertif="FID080111867" SelloCFD="QHYpQ5AxZlqvJncPBMeC85uA7Rw6LB7OcTvSvxWV4yfjQzY5kVHcqR1Jomz2uwnuq2p/yUmjBXIWZgfcKj3kSgQpfOGMDshr+UZiLAgqoZ4Wea3/hCPQt4MyiNT7mrG28OEv3DkrR65iy7W9NhfK+n3qLSCn+Vyw/XjuRibOi2iZz8E44cozipfEU/P/Y4/JssekTwJHUG4gepByX+Hua7S//ZftvT9h+UPpbWGrRsyr0kzQN/Ym9+oUxW/tNieksnk6HqQ9bwrJxZlm61sKuVNUbNFq2br1bw71OIRBimPaUm12L/gqZMi8zH0zZOQUJ2Ny6r+1covBd2EHKz0y3w==" NoCertificadoSAT="00001000000405112669" SelloSAT="g85c150ss+1S+lF8SYTR4Xri3cRhoc7ob3+TIDdzxpUCKPy4mvhAT5iZuQGz560nR0gRwIVXbusNR5KKyGW6vXijdDJVkU7/rNlDXAg5Rwc4E3JtX55sn8oTkRZyx6K3epFwIZie0n0q5FX8jV3oolh439JYmtGLwXaxyObB3aEUmYvKnPOMhcfPKWSsGVFlV6JjP6a1kbI49uxHuql97F5Fz41R2Ry+MzC5N0swEKdyjuXCKxpxD0K+Qf5L1s/zGQptpuuoJY3aeAPinCcVA9dO9RVdc5dA51ynJKAhxXP7ZB4vUZRYKakQEpimRYrwGnv743zOWh6CQhQ4MFvrCA==" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>
