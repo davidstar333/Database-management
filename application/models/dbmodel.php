@@ -354,7 +354,12 @@ class DbModel extends CI_Model {
     	$this->revisionmodel->initialize($db);
     	    	
     	foreach($data as $key=>$value) {
-    	    	
+				if( $key == 'Updated_At' ) {
+    			
+					//unset( $data[$key] );
+					$data['Updated_At']=date("m/d/y/G:i", time());
+    		
+    		}
     		//is the new value different from the stored one?
     		if( $record[$key] != $value ) {
     		
@@ -383,10 +388,10 @@ class DbModel extends CI_Model {
     	
     	foreach( $data as $key=>$value ) {
     	
-    		if( $key == 'created' ) {
+    		if( $key == 'Created_At' ) {
     			
 					//unset( $data[$key] );
-					$data['created']=date("m/d/y G:i", time());
+					$data['Created_At']=date("m/d/y/G:i", time());
     		
     		}
     	

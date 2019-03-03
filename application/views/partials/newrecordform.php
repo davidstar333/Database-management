@@ -17,10 +17,14 @@
 	<?php $counter = 0;?>
 <?php //vdebug($tableFields_, false);?>
 	<?php foreach($tableFields_ as $field):?>
-	<?php if($field['field'] == 'User_name'):?>
+	<?php if($field['field'] == 'Created_By'):?>
 	<input type="hidden" name="<?php echo $field['field'];?>" value="<?php echo $this->session->userdata('username'); ?>" id="new_<?php echo $field['field']?>">
-	<?php elseif($field['field'] == 'created'):?>
+	<?php elseif($field['field'] == 'Created_At'):?>
 	<input type="hidden" name="<?php echo $field['field'];?>" value="<?php echo date_default_timezone_get(); ?>" id="new_<?php echo $field['field']?>">
+	<?php elseif($field['field'] == 'Updated_By'):?>
+	<input type="hidden" name="<?php echo $field['field'];?>" value="" id="new_<?php echo $field['field']?>">
+	<?php elseif($field['field'] == 'Updated_At'):?>
+	<input type="hidden" name="<?php echo $field['field'];?>" value="" id="new_<?php echo $field['field']?>">
 	
 	<?php else:?>
 		<?php if($counter >= 0):?>
