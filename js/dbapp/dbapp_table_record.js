@@ -467,7 +467,7 @@
 					$("#Fact_numero-text").after('<span class="my-alert" style="color: red;">proveedor y número de factura repetidos, favor de revisar</span>');
 				}
 				else {
-					//disable the button
+					//disable the button 
 					elem.text('Updating record ...');
 					$(".my-alert").remove();
 					$('form#recordForm').submit();
