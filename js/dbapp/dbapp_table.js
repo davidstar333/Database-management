@@ -211,21 +211,15 @@ function doTableLink() {
 											return '<div class="cell fact" id="v' + data + '">'+data+"</div>";
 										}
 										else{
-											'<div>'+data+"</div>";
+											return '<div id="v' + data + '">'+data+"</div>";
 										}
 									}
 									else if(permission == 'Auditoría') {
-										if(row[23] == data || row[24] == data || row[25] == data || row[26] == data){
-											return '<div class="mycheck" id="v' + data + '">'+data+"</div>";
-										}
-										else if(row[6] == data) {
-											return '<div class="cell razon" id="v' + data + '">'+data+"</div>";
-										}
-										else if(row[8] == data) {
-											return '<div class="cell fact" id="v' + data + '">'+data+"</div>";
+										if(row[12] == data || row[13] == data || row[21] == data || row[22] == data) {
+											return '<div class="cell" id="v' + data + '">'+data+"</div>";
 										}
 										else{
-											'<div>'+data+"</div>";
+											return '<div>'+data+"</div>";
 										}
 									}
 									else if(permission == 'Pagos') {
@@ -239,22 +233,11 @@ function doTableLink() {
 											return '<div class="cell fact" id="v' + data + '">'+data+"</div>";
 										}
 										else{
-											'<div>'+data+"</div>";
+											return '<div>'+data+"</div>";
 										}
 									}
 									else if(permission == 'Viaticos') {
-										if(row[23] == data || row[24] == data || row[25] == data || row[26] == data){
-											return '<div class="mycheck" id="v' + data + '">'+data+"</div>";
-										}
-										else if(row[6] == data) {
-											return '<div class="cell razon" id="v' + data + '">'+data+"</div>";
-										}
-										else if(row[8] == data) {
-											return '<div class="cell fact" id="v' + data + '">'+data+"</div>";
-										}
-										else{
-											'<div>'+data+"</div>";
-										}
+										
 									}
 		                    		
 		                    	} else {
