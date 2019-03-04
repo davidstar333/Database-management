@@ -32,7 +32,6 @@ class Db extends CI_Controller {
 	
 	public function index($db, $table = '', $clearSearch = false) 
 	{
-		
 		//search reset?
 		
 		if( $clearSearch == true ) {
@@ -117,6 +116,7 @@ class Db extends CI_Controller {
 			die( $this->load->view('shared/alert', array('data'=>$temp), true) );
 		
 		}	
+		
 		
 		$this->data['theDB'] = $db;
 	

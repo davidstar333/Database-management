@@ -16,7 +16,7 @@
 	
 	<?php $counter = 0;?>
 	<?php if($this->session->userdata('permission') == 'Contabilidad'): ?>
-	<?php vdebug($tableFields_,false);?>
+	<?php unset($tableFields_[11],$tableFields_[12],$tableFields_[13],$tableFields_[14],$tableFields_[15],$tableFields_[16],$tableFields_[17],$tableFields_[18],$tableFields_[19]);?>
 	<?php endif;?>
 <?php //vdebug($tableFields_, false);?>
 	<?php foreach($tableFields_ as $field):?>

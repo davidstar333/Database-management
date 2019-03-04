@@ -15,9 +15,11 @@
 
 	<div class="panel-group margin-bottom-15" id="recordDetails">
 	
-		<?php
-			$counter = 0;
-		?>
+	<?php $counter = 0;?>
+	<?php if($this->session->userdata('permission') == 'Contabilidad'): ?>
+	<?php unset($recordData['AUDITORIA_estatus'],$recordData['AUDITORIA_observaciones'],$recordData['PAGOS_cuenta'],$recordData['PAGOS_fecha_de_pago'],$recordData['PAGOS_estatus'],$recordData['PAGOS_cheque_o_tx'],$recordData['PAGOS_imagen_de_cheque_o_tx'],$recordData['PAGOS_estatus_de_viatico'],$recordData['SOPORTE_archivo_general']);?>
+	<?php endif;?>
+	<?php //vdebug($recordData, false);?>
 
 		<?php foreach($recordData as $field=>$value):?>
 		
