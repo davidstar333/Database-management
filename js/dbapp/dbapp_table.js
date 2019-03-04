@@ -213,6 +213,9 @@ function doTableLink() {
 										else if(row[8] == data) {
 											return '<div class="cell fact" id="v' + data + '">'+data+"</div>";
 										}
+										else{
+											'<div>'+data+"</div>";
+										}
 									}
 									else if(permission == 'Pagos') {
 										if(row[23] == data || row[24] == data || row[25] == data || row[26] == data){
@@ -224,6 +227,9 @@ function doTableLink() {
 										else if(row[8] == data) {
 											return '<div class="cell fact" id="v' + data + '">'+data+"</div>";
 										}
+										else{
+											'<div>'+data+"</div>";
+										}
 									}
 									else if(permission == 'Viaticos') {
 										if(row[23] == data || row[24] == data || row[25] == data || row[26] == data){
@@ -234,6 +240,9 @@ function doTableLink() {
 										}
 										else if(row[8] == data) {
 											return '<div class="cell fact" id="v' + data + '">'+data+"</div>";
+										}
+										else{
+											'<div>'+data+"</div>";
 										}
 									}
 		                    		
