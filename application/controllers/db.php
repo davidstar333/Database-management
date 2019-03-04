@@ -517,7 +517,7 @@ class Db extends CI_Controller {
 				
 			$return['response_code'] = 1;
 			$return['success_message'] = $this->load->view("partials/message_success", $this->data, true);
-			
+			$return['date'] = date("d/m/y/G:i", time());
 				
 		}
 		

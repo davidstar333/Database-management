@@ -23,13 +23,13 @@
 
 		<?php foreach($recordData as $field=>$value):?>
 		
-		<?php if($field == 'Updated_By'):?>
+		<?php if($field == 'Creado_por_created'):?>
 		<input type="hidden" name="<?php echo $field;?>" value="<?php echo $this->session->userdata('username'); ?>" id="new_<?php echo $field;?>">
-		<?php elseif($field == 'Updated_At'):?>
+		<?php elseif($field == 'Creado_el'):?>
 		<input type="hidden" name="<?php echo $field;?>" value="<?php echo date_default_timezone_get(); ?>" id="new_<?php echo $field;?>">
-		<?php elseif($field == 'Created_By'):?>
+		<?php elseif($field == 'Actualizado_por'):?>
 		<input type="hidden" id="new_<?php echo $field;?>">
-		<?php elseif($field == 'Created_At'):?>
+		<?php elseif($field == 'Fecha_de_modificacion'):?>
 		<input type="hidden" id="new_<?php echo $field;?>">
 		<?php else:?>
 		<?php if($counter >= 0):?>

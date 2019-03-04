@@ -8,7 +8,8 @@
 	<?php $this->load->view("shared/nav");?>
 	
     <div class="container main">
-	<input type="hidden" name="" id="permission" value="<?php echo $this->session->userdata('permission'); ?>" />>
+	<input type="hidden" name="" id="permission" value="<?php echo $this->session->userdata('permission'); ?>" />
+	<input type="hidden" name="" id="sess_user" value="<?php echo $this->session->userdata('username'); ?>" />
         
     	<div class="row">
     		
