@@ -222,12 +222,12 @@ function doTableLink() {
 										if(temp_index == 12 || temp_index == 13 || temp_index == 21 || temp_index == 22){
 											return '<div class="cell" id="v' + data + '">'+data+"</div>";
 										}
-										else if(temp_index == 6) {
-											return '<div class="cell razon" id="v' + data + '">'+data+"</div>";
-										}
-										else if(temp_index == 8) {
-											return '<div class="cell fact" id="v' + data + '">'+data+"</div>";
-										}
+										// else if(temp_index == 6) {
+										// 	return '<div class="cell razon" id="v' + data + '">'+data+"</div>";
+										// }
+										// else if(temp_index == 8) {
+										// 	return '<div class="cell fact" id="v' + data + '">'+data+"</div>";
+										// }
 										else{
 											return '<div>'+data+"</div>";
 										}
@@ -236,12 +236,12 @@ function doTableLink() {
 										if(temp_index == 14 || temp_index == 15 || temp_index == 16 || temp_index == 17 || temp_index == 18 || temp_index == 21 || temp_index == 22){
 											return '<div class="cell" id="v' + data + '">'+data+"</div>";
 										}
-										else if(temp_index == 6) {
-											return '<div class="cell razon" id="v' + data + '">'+data+"</div>";
-										}
-										else if(temp_index == 8) {
-											return '<div class="cell fact" id="v' + data + '">'+data+"</div>";
-										}
+										// else if(temp_index == 6) {
+										// 	return '<div class="cell razon" id="v' + data + '">'+data+"</div>";
+										// }
+										// else if(temp_index == 8) {
+										// 	return '<div class="cell fact" id="v' + data + '">'+data+"</div>";
+										// }
 										else{
 											return '<div>'+data+"</div>";
 										}
@@ -250,12 +250,12 @@ function doTableLink() {
 										if(temp_index == 21 || temp_index == 22 || temp_index == 19){
 											return '<div class="cell" id="v' + data + '">'+data+"</div>";
 										}
-										else if(temp_index == 6) {
-											return '<div class="cell razon" id="v' + data + '">'+data+"</div>";
-										}
-										else if(temp_index == 8) {
-											return '<div class="cell fact" id="v' + data + '">'+data+"</div>";
-										}
+										// else if(temp_index == 6) {
+										// 	return '<div class="cell razon" id="v' + data + '">'+data+"</div>";
+										// }
+										// else if(temp_index == 8) {
+										// 	return '<div class="cell fact" id="v' + data + '">'+data+"</div>";
+										// }
 										else{
 											return '<div>'+data+"</div>";
 										}
