@@ -227,6 +227,7 @@
 					fact_numo: fact_numo
 				},
 				success: function(msg) {
+					console.log(msg);
 					if(msg == 'false') {
 						$("#redactorArea").parent().append('<span class="my-alert" style="color: red;">proveedor y número de factura repetidos, favor de revisar</span>');
 						return false;
@@ -250,6 +251,7 @@
 					fact_numo: fact_numo
 				},
 				success: function(msg) {
+					console.log(msg);
 					if(msg == 'false') {
 						$("#redactorArea").parent().append('<span class="my-alert" style="color: red;">proveedor y número de factura repetidos, favor de revisar</span>');
 						return false;
