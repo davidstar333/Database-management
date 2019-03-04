@@ -186,17 +186,31 @@ function doTableLink() {
 		                	if( data != null ) {
 		                		
 		                		if(_tableUpdateAllowed == 'yes') {
-									if(row[23] == data || row[24] == data || row[25] == data || row[26] == data){
-										return '<div class="mycheck" id="v' + data + '">'+data+"</div>";
+									if(permission == 'Administrator') {
+										if(row[23] == data || row[24] == data || row[25] == data || row[26] == data){
+											return '<div class="mycheck" id="v' + data + '">'+data+"</div>";
+										}
+										else if(row[6] == data) {
+											return '<div class="cell razon" id="v' + data + '">'+data+"</div>";
+										}
+										else if(row[8] == data) {
+											return '<div class="cell fact" id="v' + data + '">'+data+"</div>";
+										}
+										else{
+											return '<div class="cell" id="v' + data + '">'+data+"</div>";
+										}
 									}
-									else if(row[6] == data) {
-										return '<div class="cell razon" id="v' + data + '">'+data+"</div>";
+									else if(permission == 'Contabilidad') {
+
 									}
-									else if(row[8] == data) {
-										return '<div class="cell fact" id="v' + data + '">'+data+"</div>";
+									else if(permission == 'Auditoría') {
+										
 									}
-									else{
-										return '<div class="cell" id="v' + data + '">'+data+"</div>";
+									else if(permission == 'Pagos') {
+										
+									}
+									else if(permission == 'Viaticos') {
+										
 									}
 		                    		
 		                    	} else {
