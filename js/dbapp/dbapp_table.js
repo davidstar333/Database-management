@@ -184,7 +184,7 @@ function doTableLink() {
 		                	if( data != null ) {
 		                		
 		                		if(_tableUpdateAllowed == 'yes') {
-									if(row[23] == data || row[24] == data ){
+									if(row[23] == data || row[24] == data || row[25] || row[26]){
 										return '<div class="mycheck" id="v' + data + '">'+data+"</div>";
 									}
 									else if(row[6] == data) {
