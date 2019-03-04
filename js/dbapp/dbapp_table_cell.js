@@ -1,6 +1,12 @@
 // IIFE - Immediately Invoked Function Expression
 (function($, window, document) {
 
+	let razon = false;
+	let razon_value;
+	let fact = false;
+	let fact_value;
+
+
 	// The $ is now locally scoped 
 
    	// Listen for the jQuery ready event on the document
@@ -10,14 +16,27 @@
 
    	});
    	
-   	
+	   
+	$('#fieldModal').on('hidden.bs.modal', function () {
+		razon = false;
+		fact = false;
+		razon_value = "";
+		fact_value = "";
+	});
    	
    	
    	//load a single cell
    	$('#zeTable').on("click", "div.cell", function(){
+		razon_value = $(this).parent().parent().find('.razon').text();
+		fact_value = $(this).parent().parent().find('.fact').text();
+		if( $(this).attr('class') == 'cell razon' ) {
+			razon = true;
+		}
+		else if( $(this).attr('class') == 'cell fact' ) {
+			fact =true;
+		}
    	   	
    		_theDIV = $(this);
-   		console.log(_theDIV);
    		//column name
    		fieldName = $(this).parent().closest('table').find('th').eq($(this).parent().index()).text();
    		_fieldName = fieldName;
@@ -44,38 +63,6 @@
    			
    			//update modal header
    			$('#fieldModalLabel span').text(fieldName);
-   			
-   			/*theData = $(this).html().replace(/&lt;/g, "<").replace(/&gt;/g, ">");
-   			
-   			var redactorArea = $('#redactorArea');
-   			
-   			
-   			//implement max character if needed
-   			if(allFields[fieldName].max_length != 0) {
-   			
-   				redactorArea.attr('maxlength', allFields[fieldName].max_length);
-   				    	    	
-   			} else {
-   				
-   				redactorArea.removeAttr('maxlength');
-   			
-   			};
-   			
-   			if(/<[a-z][\s\S]*>/i.test(theData)) {
-   			
-   				//data contains HTML
-   				redactorArea.redactor();
-   				redactorArea.redactor('set', theData);
-   			
-   			} else {
-   			
-   				//data does not contain HTML
-   				redactorArea.redactor();
-   				redactorArea.redactor('destroy');
-   			
-   				redactorArea.val(theData);
-   			
-   			};*/
    			
    			//empty out the tab
    			$('#cellWrapper > *').each(function(){
@@ -227,10 +214,57 @@
    	
    	//field saving
    	$('#fieldModal_save').click(function(){
-   	
-   		//disable button
-   		$(this).attr('disabled', true).text("Saving changes ...");
-		
+		let elem = $(this);
+		if(fact) {
+			let razon_numo = razon_value;
+			let fact_numo = $("#redactorArea").val();
+			
+			$.ajax({
+				url: _BASE_URL+"/db/spec_validation",
+				type: 'post',
+				data: {
+					razon: razon_numo,
+					fact_numo: fact_numo
+				},
+				success: function(msg) {
+					if(msg == 'false') {
+						$("#redactorArea").parent().append('<span class="my-alert" style="color: red;">proveedor y número de factura repetidos, favor de revisar</span>');
+						return false;
+					}
+					else {
+						$(".my-alert").remove();
+						saveColumn(elem);
+					}
+				}
+			});
+		}
+		else if(razon) {
+			let razon_numo = $("#redactorArea").val();
+			let fact_numo = fact_value;
+			
+			$.ajax({
+				url: _BASE_URL+"/db/spec_validation",
+				type: 'post',
+				data: {
+					razon: razon_numo,
+					fact_numo: fact_numo
+				},
+				success: function(msg) {
+					if(msg == 'false') {
+						$("#redactorArea").parent().append('<span class="my-alert" style="color: red;">proveedor y número de factura repetidos, favor de revisar</span>');
+						return false;
+					}
+					else {
+						$(".my-alert").remove();
+						saveColumn(elem);
+					}
+				}
+			});
+		}
+	});
+	   
+	function saveColumn(elem) {
+		elem.attr('disabled', true).text("Saving changes ...");
 		isFK = 0;//is FK field or not?
    		
    		//does redactor exist?
@@ -311,8 +345,7 @@
    			}
    		
    		})
-   	
-   	});
+	}
    	
    	//remove revision buttons
    	   	   	

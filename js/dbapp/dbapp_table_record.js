@@ -448,12 +448,32 @@
    		
    		
    	$('#recordModal_save').click(function(){
-   	
-   		//disable button
-   		$(this).addClass('disabled').text('Updating record ...');
-   		
-   		$('form#recordForm').submit();
-   	
+		let elem = $(this);
+		let razon = $("#Razon_social_proveedor-text").val();
+		let fact_numo = $("#Fact_numero-text").val();
+		
+		$.ajax({
+			url: _BASE_URL+"/db/spec_validation",
+			type: 'post',
+			data: {
+				razon: razon,
+				fact_numo: fact_numo
+			},
+			success: function(msg) {
+				console.log(msg);
+				if(msg == 'false') {
+					$("#Razon_social_proveedor-text").focus();
+					$("#Razon_social_proveedor-text").after('<span class="my-alert" style="color: red;">proveedor y número de factura repetidos, favor de revisar</span>');
+					$("#Fact_numero-text").after('<span class="my-alert" style="color: red;">proveedor y número de factura repetidos, favor de revisar</span>');
+				}
+				else {
+					//disable the button
+					elem.text('Updating record ...');
+					$(".my-alert").remove();
+					$('form#recordForm').submit();
+				}
+			}
+		});
    	});
    	
    	

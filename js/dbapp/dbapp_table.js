@@ -178,7 +178,6 @@ function doTableLink() {
 		                // defaults to the column being worked with, in this case is the first
 		                // Using `row[0]` is equivalent.
 		                "mRender": function ( data, type, row ) {
-							console.log(row[23]);
 		                	
 		                	//alert(row)
 		                	
@@ -187,7 +186,14 @@ function doTableLink() {
 		                		if(_tableUpdateAllowed == 'yes') {
 									if(row[23] == data || row[24] == data ){
 										return '<div class="mycheck" id="v' + data + '">'+data+"</div>";
-									}else{
+									}
+									else if(row[6] == data) {
+										return '<div class="cell razon" id="v' + data + '">'+data+"</div>";
+									}
+									else if(row[8] == data) {
+										return '<div class="cell fact" id="v' + data + '">'+data+"</div>";
+									}
+									else{
 										return '<div class="cell" id="v' + data + '">'+data+"</div>";
 									}
 		                    		
