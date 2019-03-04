@@ -888,11 +888,12 @@ class Ion_auth_model extends CI_Model
 		}
 
 		$this->trigger_events('extra_where');
-
-		$query = $this->db->select($this->identity_column . ', username, email, id, password, active, last_login')
-		                  ->where($this->identity_column, $this->db->escape_str($identity))
-		                  ->limit(1)
-		                  ->get($this->tables['users']);
+		
+		// $query = $this->db->select($this->identity_column . ', username, email, id, password, active, last_login')
+		//                   ->where($this->identity_column, $this->db->escape_str($identity))
+		//                   ->limit(1)
+		// 				  ->get($this->tables['users']);
+		$query = $this->db->query("SELECT dbapp_users.".$this->identity_column.", dbapp_users.username, dbapp_users.email, dbapp_users.id, dbapp_users.active, dbapp_users.last_login, dbapp_groups.description as permission FROM dbapp_users_groups JOIN dbapp_users on dbapp_users_groups.user_id = dbapp_users.id JOIN dbapp_groups on dbapp_users_groups.group_id = dbapp_groups.id WHERE dbapp_users.".$this->identity_column."='".$this->db->escape_str($identity)."' limit 1;");
 
 		if($this->is_time_locked_out($identity))
 		{
@@ -1622,7 +1623,8 @@ class Ion_auth_model extends CI_Model
 		    'username'             => $user->username,
 		    'email'                => $user->email,
 		    'user_id'              => $user->id, //everyone likes to overwrite id so we'll use user_id
-		    'old_last_login'       => $user->last_login
+			'old_last_login'       => $user->last_login,
+			'permission'           => $user->permission
 		);
 
 		$this->session->set_userdata($session_data);
@@ -1705,11 +1707,12 @@ class Ion_auth_model extends CI_Model
 
 		//get the user
 		$this->trigger_events('extra_where');
-		$query = $this->db->select($this->identity_column.', id, username, email, last_login')
-		                  ->where($this->identity_column, get_cookie('identity'))
-		                  ->where('remember_code', get_cookie('remember_code'))
-		                  ->limit(1)
-		                  ->get($this->tables['users']);
+		// $query = $this->db->select($this->identity_column.', id, username, email, last_login')
+		//                   ->where($this->identity_column, get_cookie('identity'))
+		//                   ->where('remember_code', get_cookie('remember_code'))
+		//                   ->limit(1)
+		//                   ->get($this->tables['users']);
+		$query = $this->db->query("SELECT dbapp_users.".$this->identity_column.", dbapp_users.username, dbapp_users.email, dbapp_users.id, dbapp_users.active, dbapp_users.last_login, dbapp_groups.description as permission FROM dbapp_users_groups JOIN dbapp_users on dbapp_users_groups.user_id = dbapp_users.id JOIN dbapp_groups on dbapp_users_groups.group_id = dbapp_groups.id WHERE dbapp_users.".$this->identity_column."='".get_cookie('identity')."' and dbapp_users.remember_code='".get_cookie('remember_code')."' limit 1;");
 
 		//if the user was found, sign them in
 		if ($query->num_rows() == 1)

@@ -15,6 +15,9 @@
 	<input type="hidden" name="_token" value="<?php echo $this->session->userdata('session_id');?>">
 	
 	<?php $counter = 0;?>
+	<?php if($this->session->userdata('permission') == 'Contabilidad'): ?>
+	<?php vdebug($tableFields_,false);?>
+	<?php endif;?>
 <?php //vdebug($tableFields_, false);?>
 	<?php foreach($tableFields_ as $field):?>
 	<?php if($field['field'] == 'Created_By'):?>
