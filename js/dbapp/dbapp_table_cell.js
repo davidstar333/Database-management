@@ -263,6 +263,9 @@
 				}
 			});
 		}
+		else {
+			saveColumn(elem);
+		}
 	});
 	   
 	function saveColumn(elem) {
