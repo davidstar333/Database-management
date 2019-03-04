@@ -392,7 +392,9 @@ class TableModel extends CI_Model {
     	if($value != $tempp[0][$field]) {
     
     		$data = array(
-    	   		$field => $value
+				   $field => $value,
+				   "Actualizado_por" => $this->session->userdata('username'),
+				   "Fecha_de_modificacion" => date("d/m/y/G:i", time())
     		);
     	
     		$this->theDB->where($indexName, $index);

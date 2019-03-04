@@ -5,6 +5,8 @@
 	let razon_value;
 	let fact = false;
 	let fact_value;
+	let _theUdate_By;
+	let _theUdate_At;
 
 
 	// The $ is now locally scoped 
@@ -36,7 +38,10 @@
 			fact =true;
 		}
    	   	
-   		_theDIV = $(this);
+		   _theDIV = $(this);
+		   _theUdate_By = $(this).parent().parent().find('td').eq(25).find('div');
+		   _theUdate_At = $(this).parent().parent().find('td').eq(26).find('div');
+		//    console.log(_theUdate_By);
    		//column name
    		fieldName = $(this).parent().closest('table').find('th').eq($(this).parent().index()).text();
    		_fieldName = fieldName;
@@ -320,7 +325,11 @@
 					
 				} else {
 				
-   					_theDIV.html(_fieldValue);
+					   _theDIV.html(_fieldValue);
+					//    console.log($("#sess_user").val());
+						let ttt = $("#sess_user").val();
+					   _theUdate_By.html(ttt);
+					   _theUdate_At.html(response.date);
 					
 				}
    				

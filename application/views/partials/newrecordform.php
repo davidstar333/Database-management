@@ -20,13 +20,13 @@
 	<?php endif;?>
 <?php //vdebug($tableFields_, false);?>
 	<?php foreach($tableFields_ as $field):?>
-	<?php if($field['field'] == 'Created_By'):?>
+	<?php if($field['field'] == 'Creado_por_created'):?>
 	<input type="hidden" name="<?php echo $field['field'];?>" value="<?php echo $this->session->userdata('username'); ?>" id="new_<?php echo $field['field']?>">
-	<?php elseif($field['field'] == 'Created_At'):?>
+	<?php elseif($field['field'] == 'Creado_el'):?>
 	<input type="hidden" name="<?php echo $field['field'];?>" value="<?php echo date_default_timezone_get(); ?>" id="new_<?php echo $field['field']?>">
-	<?php elseif($field['field'] == 'Updated_By'):?>
+	<?php elseif($field['field'] == 'Actualizado_por'):?>
 	<input type="hidden" name="<?php echo $field['field'];?>" value="" id="new_<?php echo $field['field']?>">
-	<?php elseif($field['field'] == 'Updated_At'):?>
+	<?php elseif($field['field'] == 'Fecha_de_modificacion'):?>
 	<input type="hidden" name="<?php echo $field['field'];?>" value="" id="new_<?php echo $field['field']?>">
 	
 	<?php else:?>
