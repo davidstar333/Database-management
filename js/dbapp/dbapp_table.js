@@ -46,7 +46,7 @@ function doTableLink() {
 
 // IIFE - Immediately Invoked Function Expression
 (function($, window, document) {
-
+	var temp_index = 0;
 	let permission = $("#permission").val();
 
 	// The $ is now locally scoped 
@@ -180,80 +180,84 @@ function doTableLink() {
 		                // defaults to the column being worked with, in this case is the first
 		                // Using `row[0]` is equivalent.
 		                "mRender": function ( data, type, row ) {
-		                	
 		                	//alert(row)
-		                	
-		                	if( data != null ) {
-		                		
+							if(temp_index == 26) temp_index=0;
+							temp_index++;
+		                	if( data != null ) {			
+								
 		                		if(_tableUpdateAllowed == 'yes') {
-									if(permission == 'Administrator') {
-										if(row[23] == data || row[24] == data || row[25] == data || row[26] == data){
+									
+									if(permission == 'Administrator') {										
+										if(temp_index == 23 || temp_index == 24 || temp_index == 25 || temp_index == 26){
 											return '<div class="mycheck" id="v' + data + '">'+data+"</div>";
 										}
-										else if(row[6] == data) {
+										else if(temp_index == 6) {
 											return '<div class="cell razon" id="v' + data + '">'+data+"</div>";
 										}
-										else if(row[8] == data) {
+										else if(temp_index == 8) {
+											return '<div class="cell fact" id="v' + data + '">'+data+"</div>";
+										}
+										else{
+											return '<div class="cell" id="v' + data + '">'+data+"</div>";
+										}
+										
+									}
+									else if(permission == 'Contabilidad') {
+										// if(row[23] == data || row[24] == data || row[25] == data || row[26] == data || (row[12] == data&&temp_index==12) || (row[13] == data&&temp_index==13) || (row[14] == data&&temp_index==14) || (row[15] == data&&temp_index==15) || (row[16] == data&&temp_index==16) || (row[17] == data&&temp_index==17) || (row[18] == data&&temp_index==18) || (row[19] == data&&temp_index==19) || (row[20] == data&&temp_index==20))
+										if(temp_index == 12 || temp_index == 13 || temp_index == 14 || temp_index == 15 || temp_index == 16 || temp_index == 17 || temp_index == 18 || temp_index == 19 || temp_index == 20 || temp_index == 23 || temp_index == 24 || temp_index == 25 || temp_index == 26)
+										{
+											return '<div class="mycheck" id="v' + data + '">'+data+"</div>";
+										}
+										else if(temp_index == 6) {
+											return '<div class="cell razon" id="v' + data + '">'+data+"</div>";
+										}
+										else if(temp_index == 8) {
 											return '<div class="cell fact" id="v' + data + '">'+data+"</div>";
 										}
 										else{
 											return '<div class="cell" id="v' + data + '">'+data+"</div>";
 										}
 									}
-									else if(permission == 'Contabilidad') {
-										if(row[23] == data || row[24] == data || row[25] == data || row[26] == data){
-											return '<div class="mycheck" id="v' + data + '">'+data+"</div>";
-										}
-										else if(row[6] == data) {
-											return '<div class="cell razon" id="v' + data + '">'+data+"</div>";
-										}
-										else if(row[8] == data) {
-											return '<div class="cell fact" id="v' + data + '">'+data+"</div>";
-										}
-										else{
-											'<div>'+data+"</div>";
-										}
-									}
 									else if(permission == 'Auditoría') {
-										if(row[23] == data || row[24] == data || row[25] == data || row[26] == data){
-											return '<div class="mycheck" id="v' + data + '">'+data+"</div>";
+										if(temp_index == 12 || temp_index == 13 || temp_index == 21 || temp_index == 22){
+											return '<div class="cell" id="v' + data + '">'+data+"</div>";
 										}
-										else if(row[6] == data) {
+										else if(temp_index == 6) {
 											return '<div class="cell razon" id="v' + data + '">'+data+"</div>";
 										}
-										else if(row[8] == data) {
+										else if(temp_index == 8) {
 											return '<div class="cell fact" id="v' + data + '">'+data+"</div>";
 										}
 										else{
-											'<div>'+data+"</div>";
+											return '<div>'+data+"</div>";
 										}
 									}
 									else if(permission == 'Pagos') {
-										if(row[23] == data || row[24] == data || row[25] == data || row[26] == data){
-											return '<div class="mycheck" id="v' + data + '">'+data+"</div>";
+										if(temp_index == 14 || temp_index == 15 || temp_index == 16 || temp_index == 17 || temp_index == 18 || temp_index == 21 || temp_index == 22){
+											return '<div class="cell" id="v' + data + '">'+data+"</div>";
 										}
-										else if(row[6] == data) {
+										else if(temp_index == 6) {
 											return '<div class="cell razon" id="v' + data + '">'+data+"</div>";
 										}
-										else if(row[8] == data) {
+										else if(temp_index == 8) {
 											return '<div class="cell fact" id="v' + data + '">'+data+"</div>";
 										}
 										else{
-											'<div>'+data+"</div>";
+											return '<div>'+data+"</div>";
 										}
 									}
 									else if(permission == 'Viaticos') {
-										if(row[23] == data || row[24] == data || row[25] == data || row[26] == data){
-											return '<div class="mycheck" id="v' + data + '">'+data+"</div>";
+										if(temp_index == 21 || temp_index == 22 || temp_index == 19){
+											return '<div class="cell" id="v' + data + '">'+data+"</div>";
 										}
-										else if(row[6] == data) {
+										else if(temp_index == 6) {
 											return '<div class="cell razon" id="v' + data + '">'+data+"</div>";
 										}
-										else if(row[8] == data) {
+										else if(temp_index == 8) {
 											return '<div class="cell fact" id="v' + data + '">'+data+"</div>";
 										}
 										else{
-											'<div>'+data+"</div>";
+											return '<div>'+data+"</div>";
 										}
 									}
 		                    		
