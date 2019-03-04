@@ -204,13 +204,37 @@ function doTableLink() {
 
 									}
 									else if(permission == 'Auditoría') {
-										
+										if(row[23] == data || row[24] == data || row[25] == data || row[26] == data){
+											return '<div class="mycheck" id="v' + data + '">'+data+"</div>";
+										}
+										else if(row[6] == data) {
+											return '<div class="cell razon" id="v' + data + '">'+data+"</div>";
+										}
+										else if(row[8] == data) {
+											return '<div class="cell fact" id="v' + data + '">'+data+"</div>";
+										}
 									}
 									else if(permission == 'Pagos') {
-										
+										if(row[23] == data || row[24] == data || row[25] == data || row[26] == data){
+											return '<div class="mycheck" id="v' + data + '">'+data+"</div>";
+										}
+										else if(row[6] == data) {
+											return '<div class="cell razon" id="v' + data + '">'+data+"</div>";
+										}
+										else if(row[8] == data) {
+											return '<div class="cell fact" id="v' + data + '">'+data+"</div>";
+										}
 									}
 									else if(permission == 'Viaticos') {
-										
+										if(row[23] == data || row[24] == data || row[25] == data || row[26] == data){
+											return '<div class="mycheck" id="v' + data + '">'+data+"</div>";
+										}
+										else if(row[6] == data) {
+											return '<div class="cell razon" id="v' + data + '">'+data+"</div>";
+										}
+										else if(row[8] == data) {
+											return '<div class="cell fact" id="v' + data + '">'+data+"</div>";
+										}
 									}
 		                    		
 		                    	} else {
