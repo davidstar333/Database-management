@@ -75,7 +75,6 @@ class Auth extends CI_Controller {
 			}
 			else
 			{
-				die('2');
 				//if the login was un-successful
 				//redirect them back to the login page
 				$this->session->set_flashdata('message', $this->ion_auth->errors());
