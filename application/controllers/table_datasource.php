@@ -281,8 +281,6 @@ class Table_datasource extends CI_Controller {
 
 		
 			} else {
-		
-				//$this->datatables->edit_column($primaryKey->name, '<span class="recordID" id="record_$1">$1</span> <span class="pull-right tableCrud"><a href="#recordViewModal" id="record_$1" class="crudView" title="View this record" data-placement="right" data-toggle="modal"><span class="fui-export"></span></a></span>', $primaryKey->name);
 			
 				$this->datatables->add_column('actions', '<span class="recordID" id="record_$1"></span> <span class="pull-right tableCrud"><a href="#recordViewModal" id="record_$1" class="crudView" title="Ver" data-placement="right" data-toggle="modal"><span class="fui-export"></span></a></span>', $table.".".$primaryKey->name);
 		
