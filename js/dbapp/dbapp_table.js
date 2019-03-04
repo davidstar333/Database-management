@@ -258,7 +258,8 @@ function doTableLink() {
 			type: 'post',
 			data: {
 				razon: razon,
-				fact_numo: fact_numo
+				fact_numo: fact_numo,
+				_token: _TOKEN
 			},
 			success: function(msg) {
 				console.log(msg);
