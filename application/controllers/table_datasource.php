@@ -270,11 +270,15 @@ class Table_datasource extends CI_Controller {
 		
 			if( $this->usermodel->hasTablePermission("update", $db, $table) ) {
 		
-				//$this->datatables->edit_column($primaryKey->name, '<span class="recordID" id="record_$1">$1</span> <span class="pull-right tableCrud"><a href="#recordModal" id="record_$1" class="crudEdit" title="Edit this record" data-placement="right" data-toggle="modal"><span class="fui-new"></span></a>&nbsp;&nbsp;<a href="#" class="crudDel" id="$1" title="Delete this record" data-placement="right"><span class="fui-cross-inverted"></span></a></span>', $primaryKey->name);
-			
-				$this->datatables->add_column('actions', '<span class="recordID" id="record_$1"></span> <span class="pull-right tableCrud">
-<a href="#recordViewModal" id="record_$1" class="crudView" title="Ver" data-placement="right" data-toggle="modal"><span class="fui-export"></span></a>
+				if($this->session->userdata('permission') == 'Administrator' || $this->session->userdata('permission') == 'Contabilidad') {
+					$this->datatables->add_column('actions', '<span class="recordID" id="record_$1"></span> <span class="pull-right tableCrud">
+					<a href="#recordViewModal" id="record_$1" class="crudView" title="Ver" data-placement="right" data-toggle="modal"><span class="fui-export"></span></a>
 					<a href="#recordModal" id="record_$1" class="crudEdit" title="Editar" data-placement="right" data-toggle="modal"><span class="fui-new"></span></a>&nbsp;&nbsp;<a href="#" class="crudDel" id="$1" title="Eliminar" data-placement="right"><span class="fui-cross-inverted"></span></a></span>', $table.".".$primaryKey->name);
+				}
+				else {
+					$this->datatables->add_column('actions', '<span class="recordID" id="record_$1"></span> <span class="pull-right tableCrud"><a href="#recordViewModal" id="record_$1" class="crudView" title="Ver" data-placement="right" data-toggle="modal"><span class="fui-export"></span></a></span>', $table.".".$primaryKey->name);
+				}
+
 		
 			} else {
 		

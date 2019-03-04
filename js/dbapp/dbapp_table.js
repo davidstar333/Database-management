@@ -47,6 +47,8 @@ function doTableLink() {
 // IIFE - Immediately Invoked Function Expression
 (function($, window, document) {
 
+	let permission = $("#permission").val();
+
 	// The $ is now locally scoped 
 
    	// Listen for the jQuery ready event on the document
@@ -198,7 +200,17 @@ function doTableLink() {
 									}
 		                    		
 		                    	} else {
-		                    		return '<div>'+data+"</div>";
+									if(permission == 'Auditoría') {
+										if(row[2] == data || row[3] == data || row[4] == data || row[5] == data){
+											return '<div class="cell" id="v' + data + '">'+data+"</div>";
+										}
+										else {
+											return '<div>'+data+"</div>";
+										}
+									}
+									else {
+										return '<div>'+data+"</div>";
+									}
 		                    	}
 		                    
 		                    } else {
